@@ -59,7 +59,7 @@ void loadg(void)
     // タイトル (Title)
     Main_GFX[30] = LoadGraph("res/syobon3.png", false);
     // プレイヤー (Player)
-    Main_GFX[0] = LoadGraph("res/player.png");
+    Main_GFX[0] = LoadGraph("res/player.jpeg");
 
     // Added by +KZ:
     Main_GFX_KZ[0] = LoadGraph("res/kz/decoration_kz.png");
@@ -273,12 +273,12 @@ void loadg(void)
     // ogg読み込み
     // try{
     // Sounds[2] = LoadSoundMem( "SE/1.mp3" ) ;
-    Music[1] = LoadMusicMem("BGM/field.ogg");   // 50
-    Music[2] = LoadMusicMem("BGM/dungeon.ogg"); // 40
-    Music[3] = LoadMusicMem("BGM/star4.ogg");   // 50
-    Music[4] = LoadMusicMem("BGM/castle.ogg");  // 50
-    Music[5] = LoadMusicMem("BGM/puyo.ogg");    // 50
-    Music[6] = LoadMusicMem("BGM/field3.mp3");  //+KZ from Syobon Action 2 (English version)
+    Music[1] = LoadMusicMem("BGM/field.mp3");   // 50
+    Music[2] = LoadMusicMem("BGM/field.mp3"); // 40
+    Music[3] = LoadMusicMem("BGM/field.mp3");   // 50
+    Music[4] = LoadMusicMem("BGM/field.mp3");  // 50
+    Music[5] = LoadMusicMem("BGM/field.mp3");    // 50
+    Music[6] = LoadMusicMem("BGM/field.mp3");  //+KZ from Syobon Action 2 (English version)
                                                // Music[6]=LoadMusicMem( "BGM/last.ogg");
     // ChangeVolumeSoundMem(50, Music[6]);
 
